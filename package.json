@@ -1,0 +1,40 @@
+{
+	"name": "regex-gen",
+	"description": "Regular expression generator",
+	"version": "0.0.1",
+	"license": "UNLICENSED",
+	"bin": {
+		"regex-gen": "index.js",
+		"rgx": "index.js"
+	},
+	"author": {
+		"name": "Joey Crowle",
+		"email": "hello@joeycrowle.com",
+		"url": "https://joeycrowle.com"
+	},
+	"keywords": [
+		"regex-gen",
+		"Joey Crowle"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"chalk": "^4.1.0",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^2.0.2",
+		"cli-welcome": "^2.2.2",
+		"inquirer": "^7.3.3",
+		"meow": "^8.0.0",
+		"to-regex": "^3.0.2"
+	},
+	"devDependencies": {
+		"prettier": "^2.2.1"
+	}
+}
