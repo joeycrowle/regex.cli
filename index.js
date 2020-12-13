@@ -49,14 +49,9 @@ const { clear, debug } = flags;
 		};
 		if(options.includes('Negate')) regexOptions.negate = true;
 		if(options.includes('Contains')) regexOptions.contains = true;
-
 		const rgx = toRegex(stringArr, regexOptions);
-
 		alert({type:'info', name:'Regex', msg: rgx});
-
 	});
-
-
 
 	debug && log(flags);
 })();
