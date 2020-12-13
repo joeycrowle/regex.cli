@@ -1,7 +1,7 @@
 {
 	"name": "regex-gen",
 	"description": "Regular expression generator",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"license": "UNLICENSED",
 	"bin": {
 		"regex-gen": "index.js",
