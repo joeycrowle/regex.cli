@@ -1,5 +1,5 @@
 {
-	"name": "regex-gen",
+	"name": "@joeycrowle/regex-gen",
 	"description": "Regular expression generator",
 	"version": "1.0.0",
 	"license": "UNLICENSED",
